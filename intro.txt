@@ -1,0 +1,56 @@
+Avoids 2-language problem
+Has metaprogramming
+
+Designed for LLVM from the beginning
+
+Design language so easy to make fast from the beginning
+(Rather than bolt that on afterwards)
+
+LLVM: library for writing compilers
+Standard optimizations provided by LLVM -- make use of them
+What numba does
+
+numba: If can't JIT, goes silently back to C API, so very slow
+
+[Threading by the end of the summer]
+
+Shared arrays on linux
+multiprocessing on Python: shared arrays -- map to mmapped file
+Mulitple processes without having to serialise the data between them
+
+Julia: sharedarray
+
+PARALLEL PROCESSING
+
+macroexpand
+
+Fully dynamically typed.
+
+Duck typing just like in Python
+Type tags that tag values
+They give the compiler information so it can do data flow analysis
+Evaluates each expression on the type tag level
+This is what does type inference
+Evaluates at the type level
+
+for loops!
+
+
+http://status.julialang.org/
+
+horner macro
+
+
+macroexpand(:(@Base.Math.horner(x, 3, 4, 5)))
+:(begin
+        #129#t = x
+        Base.Math.+(3,Base.Math.*(#129#t,Base.Math.+(4,Base.Math.*(#129#t,5))))
+    end)
+
+Precompute at compile time
+
+Something better than Horner for the complex case, but nobody ever does it because it's so complicated
+
+Don't have so much crap when writing stubs for calling out
+
+Will be tuples as fixed size arrays
