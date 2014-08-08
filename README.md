@@ -5,9 +5,9 @@ This tutorial was created by [David P. Sanders](http://sistemas.fciencias.unam.m
 available: [part 1](http://www.youtube.com/watch?v=vWkgEddb4-A) and 
 [part 2](http://www.youtube.com/watch?v=I3JH5Bg46yU).
 
-The tutorial consistes of a sequence of IJulia notebooks, i.e., IPython [now [Jupyter] notebooks (http://jupyter.org/)] using the IJulia profile. 
-To follow the tutorial you need to have ready the [IPython Notebook](Install IPython Notebook.md)
-and have installed the [Julia language](Install Julia.md), together with several 
+The tutorial consists of a sequence of IJulia notebooks, i.e., IPython [now [Jupyter](http://jupyter.org/)] notebooks, using the IJulia profile. 
+To follow the tutorial you need to have installed the [IPython Notebook](Install IPython Notebook.md)
+and the [Julia language](Install Julia.md), together with several 
 [Julia packages](Install Julia Packages.md). It is best to install them in that order.
 
 
