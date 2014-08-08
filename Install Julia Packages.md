@@ -29,7 +29,7 @@ println("3 + 4 = ", 3 + 4);
 using PyPlot;
 plot(rand(10), rand(10), "-o");
 savefig("test.pdf")'
----
+```
 
 Make it executable and execute it: 
 ```Shell
@@ -37,6 +37,11 @@ chmod +x check-julia.sh
 ./check-julia.sh
 ```
 
-This should print "Hello, world! 3 +4 = 7" and create a PDF called 'test.pdf' 
+This should print the following and create a PDF called 'test.pdf' 
 with a plot consisting of a few random points joined by lines.
 
+```ShellSession
+Hello, world!
+3 + 4 = 7
+INFO: Loading help data...
+```
