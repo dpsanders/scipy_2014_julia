@@ -6,9 +6,9 @@ available: [part 1](http://www.youtube.com/watch?v=vWkgEddb4-A) and
 [part 2](http://www.youtube.com/watch?v=I3JH5Bg46yU).
 
 The tutorial consistes of a sequence of IPython Notebooks using the IJulia profile. 
-To follow the tutorial you need to have ready the [Julia language](Install Julia.md)
-along with some [Julia packages](Install Julia Packages.md) and 
-[IPython Notebook](Install IPython Notebook.md). Best install them in that order.
+To follow the tutorial you need to have ready [IPython Notebook](Install IPython Notebook.md)
+and of course the [Julia language](Install Julia.md) along with some 
+[Julia packages](Install Julia Packages.md). Best install them in that order.
 
 
 ## Getting started 
