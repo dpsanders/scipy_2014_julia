@@ -1,6 +1,6 @@
 # Introduction to Julia tutorial at SciPy 2014
 
-David P. Sanders created the tutorial and first gave it at the conference
+David P. Sanders created this tutorial and gave it at the conference
 [SciPy2014](https://conference.scipy.org/scipy2014/). Video recordings are 
 available: [part 1](http://www.youtube.com/watch?v=vWkgEddb4-A) and 
 [part 2](http://www.youtube.com/watch?v=I3JH5Bg46yU).
@@ -12,10 +12,12 @@ and of course the [Julia language](Install Julia.md) along with some
 
 
 ## Getting started 
-Invoke IJulia (IPython Notebook with Julia profile) by: `ipython notebook --profile julia` 
-(a window will open in your web browser).
+Invoke IJulia (IPython Notebook with Julia profile) by (a window will open in your web browser): 
+```Shell
+ipython notebook --profile julia
+```
 
-Then start the tutorial in the IPython Notebook from the [index](Index.ipynb). 
+Then start the tutorial in IPython Notebook from the [index](Index.ipynb). 
 
 If you do not have IPython Notebook at hand you can view the tutorial online on
 [NbViewer](http://nbviewer.ipython.org/github/dpsanders/scipy_2014_julia/blob/master/Index.ipynb).
