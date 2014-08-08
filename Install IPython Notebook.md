@@ -1,5 +1,3 @@
-# IJulia
-
 ## IPython Notebook
 The tutorial makes heavy use of the [IPython Notebook](http://ipython.org/notebook.html) using the 
 [IJulia](https://github.com/JuliaLang/IJulia.jl) profile. IJulia requires IPython 1.0 or later. 
@@ -7,7 +5,7 @@ Thus, please make sure that the latest version of IPython is installed, includin
 
 [Installing IPython](http://ipython.org/install.html) and related scientific-Python packages 
 differs by operating system and your want of control. On recent Linux distributions (e.g. ubuntu 14.04)
-a sufficient `ipython-notebook` will be available through the package manager. On Mac and Windows the 
+a sufficiently recent `ipython-notebook` will be available through the package manager. On Mac and Windows the 
 simplest way to install is by [downloading the Anaconda package](http://continuum.io/downloads) and 
 running its installer. (Do *not* use Enthought Canopy/EPD.)
 
@@ -36,4 +34,4 @@ For less typing (on Mac and Linux) it's handy to create an alias in .bash_profil
 alias ijulia="ipython notebook --profile julia"
 ```
 
-More details can be found at [Julia at MIT](https://github.com/stevengj/julia-mit/blob/master/README.md#running-julia-in-the-ijulia-notebook).
+More details regarding IJulia can be found at [Julia at MIT](https://github.com/stevengj/julia-mit/blob/master/README.md#running-julia-in-the-ijulia-notebook).
