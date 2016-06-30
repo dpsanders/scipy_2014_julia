@@ -10,6 +10,13 @@ To follow the tutorial you need to have installed the [IPython Notebook](Install
 and the [Julia language](Install Julia.md), together with several 
 [Julia packages](Install Julia Packages.md). It is best to install them in that order.
 
+**The version given at the Scipy 2014 conference (as recorded on the corresponding SciPy YouTube video) is v1.0; this can be obtained with `git checkout v1.0`.  It has since been reformatted for ease of use.**
+
+**Note that some parts of this tutorial are out of date. See my Invitation to Julia and Intermediate Julia tutorials**.
+
+**Corrections should be sent as Pull Requests to this repository.**
+
+
 
 ## Getting started 
 Invoke IJulia using the following command from a terminal; a window will open in your web browser:
